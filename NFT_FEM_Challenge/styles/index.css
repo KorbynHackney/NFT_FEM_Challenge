@@ -1,0 +1,141 @@
+
+html {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    background-color: hsl(216, 50%, 16%);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5em;
+    max-width: 300px;
+    border-radius: 12px;
+    padding: 1.5em;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    box-shadow:  0 1.5em .6em rgba(0, 0, 0, 0.5),
+    0 4em 2em rgba(0, 0, 0, 0.15);
+}
+
+.img-overlay {
+    background-color: rgba(0, 255, 248, 0.5);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    border-radius: 5px;
+    opacity: 0;
+}
+
+.img-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card-img {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.card-img > img {
+    display: inline-block;
+    width: 300px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h1 > span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.eth-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5em;
+}
+
+.time-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5em;
+}
+
+.eth-info > span {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.eth-img {
+    margin-right: .4em;
+}
+
+.time-img {
+    margin-right: .4em;
+}
+
+hr {
+    width: auto;
+    border-style: none;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer > img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer > p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footer > p > span {
+    color: white;
+}
+
+.footer > p > span:hover {
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
